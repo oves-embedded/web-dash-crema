@@ -22,9 +22,6 @@ const Dashboard = () => {
           {/** Stacked Area Chart */}
           <Earning />
         </Grid>
-        <Grid item xs={12} md={7}>
-          <Gauge />
-        </Grid>
       </AppGridContainer>
     </>
   );
