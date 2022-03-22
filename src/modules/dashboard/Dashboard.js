@@ -5,10 +5,13 @@ import SalesChart from './SalesChart';
 import AccountGraph from './AccountGraph';
 import Earning from './Earning';
 import Gauge from './Gauge';
+import AppPageMeta from '../../@crema/core/AppPageMeta';
+
 
 const Dashboard = () => {
   return (
     <>
+      <AppPageMeta />
       <AppGridContainer>
         <Grid item xs={12} md={4}>
           {/** Stacked Area Chart */}
